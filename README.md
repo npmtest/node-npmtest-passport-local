@@ -1,4 +1,7 @@
-# test coverage for  [passport-local (v1.0.0)](https://github.com/jaredhanson/passport-local#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-local.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-local) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-local.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-local)
+# npmtest-passport-local
+
+#### basic test coverage for  [passport-local (v1.0.0)](https://github.com/jaredhanson/passport-local#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-local.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-local) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-local.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-local)
+
 #### Local username and password authentication strategy for Passport.
 
 [![NPM](https://nodei.co/npm/passport-local.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/passport-local)
@@ -87,7 +90,8 @@
     "scripts": {
         "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
